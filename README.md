@@ -1,1 +1,2 @@
-"# 05-Shooting-game-using-OpenGL" 
+# Aimlabs using OpenGL
+Project for course ComputerGraphics.

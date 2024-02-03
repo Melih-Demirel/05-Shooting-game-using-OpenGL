@@ -1,0 +1,10 @@
+﻿  main.cpp
+E:\ComputerGraphics\ShootingGame\src\Shader.h(59,40): warning C4101: 'e': unreferenced local variable
+E:\ComputerGraphics\ShootingGame\src\Mesh.h(86,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\ComputerGraphics\ShootingGame\src\main.cpp(223,39): warning C4305: '+=': truncation from 'double' to 'float'
+E:\ComputerGraphics\ShootingGame\src\main.cpp(257,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\ComputerGraphics\ShootingGame\src\main.cpp(432,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\ComputerGraphics\ShootingGame\src\main.cpp(511,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\ComputerGraphics\ShootingGame\src\main.cpp(528,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\ComputerGraphics\ShootingGame\src\main.cpp(617,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+  ShootingGame.vcxproj -> E:\ComputerGraphics\ShootingGame\x64\Debug\ShootingGame.exe

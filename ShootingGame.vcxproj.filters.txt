@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{f35a4bd2-5b3e-4013-9aa2-63b476a0c690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Obj">
+      <UniqueIdentifier>{bee8dd51-183d-432f-8ed3-cd6030378540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{4395e54e-0045-4757-8528-563e2dd73268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{2abcb3d0-63e1-402d-9c9c-3b4c68d2ed4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayerCamera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bullet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Target.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayerCamera.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader_m.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bullet.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Target.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\modelLoading.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\modelLoading.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\Basic.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\brick.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\brick.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\crosshair.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\crosshair.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\tegel.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\tegel.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\objects\backpack\backpack.mtl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\shaders\target.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\target.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\fence.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\fence.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\text.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="resources\shaders\text.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\awesomeface.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\background.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\block.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\block_solid.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\bricks2.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\bricks2_disp.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\bricks2_normal.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\brickwall.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\brickwall_normal.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\container.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\container2.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\container2_specular.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\container2_specular_colored.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\crate.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\enes.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\enes1.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\grass.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\kaan2.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\marble.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\matrix.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\metal.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\paddle.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\particle.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\powerup_chaos.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\powerup_confuse.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\powerup_increase.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\powerup_passthrough.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\powerup_speed.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\powerup_sticky.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\toy_box_diffuse.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\toy_box_disp.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\toy_box_normal.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\window.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\wood.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\objects\backpack\ao.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\objects\backpack\diffuse.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\objects\backpack\normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\objects\backpack\roughness.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\objects\backpack\specular.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="resources\objects\backpack\source_attribution.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
